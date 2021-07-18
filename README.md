@@ -1,4 +1,4 @@
-# Coronavirus-disease-Prediction
+# Coronavirus-Disease-Prediction
 
 This project aims to predict people who will Coronavirus disease using machine learning models with the help of clinical data of the patients.
 
