@@ -77,3 +77,24 @@ The following categorical features are ordinal data encoded with the multi label
 	 - **How was it used :**  Diseases are given numerically as 1,2,3,....14.
 		I converted these numbers to binary system using multi label.
 		For example; The value of the patient with 1 disease; It has become 01000000000000.
+
+
+## Train-Test Split:
+
+The data is divided into three as train, test and validation.
+
+    x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.25)  
+    x_train, x_val, y_train, y_val = train_test_split(x_train, y_train,test_size=0.25)
+
+
+## Model Building:
+
+Many models have been created.
+
+ -  Cnn
+ - Decision tree
+ - Used cross validation
+ 
+
+
+>  **The project is still on going. I'll add it here as the project is updated...**
